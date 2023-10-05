@@ -34,8 +34,9 @@ This image shows the 2 Degrees of freedom collaborative robot prototype that wor
 <br>
 ![configuration_space_of _the_2dof_arm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/4d8411ea-edeb-4f44-b766-16d11315e886)
 <br>
-![RRT algorithm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/f99ce6d2-bdb5-4fb2-b55a-a2c7c964f535)
+![RRT algorithm]("RRT algorithm.png")
 <br>
+
 
 # conclusion & future work
 * We successfully designed a collaborative robot manipulator for pick and place operations that include a safety rated monitored stop feature to comply with ISO/TS 15066 guidelines which is successfully achieved when the robot stops after detecting a human presence within the workspace and resume its motion after the human disappears. Therefore, the cobot can perceive its workspace, detect desired objects using vision-based control and avoid human collision using AI-based YOLO human detection system. Our cobot system enable user interactions through easy-to-use GUI. We also managed to plan our robot path using sampling-based path planning rrt method that find the shortest path free-of-obstacles from start to goal position while moving in a smoother and more controlled movements using cubic polynomial trajectory generation. Our modular software design allows for easy customization and adaptation to different cobot configurations or changing requirements.
