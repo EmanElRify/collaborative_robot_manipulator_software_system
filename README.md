@@ -31,7 +31,10 @@ This image shows the 2 Degrees of freedom collaborative robot prototype that wor
 * To avoid obstacles and collisions with human workers, the cobot uses the same camera. The robot can detect humans in its environment and adjust its behavior accordingly to avoid collisions. This is the “safety-rated monitored stop” level of collaboration.
 * The cobot is also programmed to detect which item to pick from several items. 
 * The cobot can avoid static obstacles using path planning rrt algorithm and can control its speed using trajectory planning.
-
+<br>
+![img](configuration_space_of _the_2dof_arm.png)
+<br>
+![img](RRT algorithm.png)
 # conclusion & future work
 * We successfully designed a collaborative robot manipulator for pick and place operations that include a safety rated monitored stop feature to comply with ISO/TS 15066 guidelines which is successfully achieved when the robot stops after detecting a human presence within the workspace and resume its motion after the human disappears. Therefore, the cobot can perceive its workspace, detect desired objects using vision-based control and avoid human collision using AI-based YOLO human detection system. Our cobot system enable user interactions through easy-to-use GUI. We also managed to plan our robot path using sampling-based path planning rrt method that find the shortest path free-of-obstacles from start to goal position while moving in a smoother and more controlled movements using cubic polynomial trajectory generation. Our modular software design allows for easy customization and adaptation to different cobot configurations or changing requirements.
 * As a future work, the proposed system could be extended to work seamlessly in unstructured environments by applying more advanced path planning techniques such as dynamic rrt. The robot can have more degrees of freedoms to enable better manipulation in 3D space.  The vision sensor could be extended to have depth estimations to facilitate the work in 3D space. Using force sensing, the robot could be used in more complex collaborative manipulation tasks.
