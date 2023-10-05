@@ -1,4 +1,4 @@
-![configuration_space_of _the_2dof_arm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/4d8411ea-edeb-4f44-b766-16d11315e886)# Collaborative Robot Arm Project Abstract
+# Collaborative Robot Arm Project Abstract
 A collaborative robot (cobot) manipulator is proposed to work with humans in a shared workspace simultaneously. The cobot is designed based on ISO 10218-1:2011/ISO 10218-2:2011 standards of safety requirements for industrial robots and integrated systems and based on ISO/TS 15066 for collaborative robot’s technical specifications. The collaborative robot consists of a serial robot mechanism with five degrees of freedom and a parallel gripper on the end effector with integrated vision and control unit. The Collaborative robot solves the safety problems in shared workplaces where humans work close to industrial robots. Also, it is used in environments that have uncertainty due to its flexibility and adaptability. The predicted scientific outcomes are (a) a robotic system that can work intelligently with human workers in the same workplace and same time using artificial intelligence and a sensor-based software system that includes a computer vision-based control system with a design that includes safety features, flexibility, and ease of programming as requirements for industry 4.0, and (b) a robotic system that do not shut down when there is a human in the workplace. The cobot is predicted to have (c) a lower cost than the traditional industrial robots due to its small size and compactness.
 
 # Conceptual High-Level Architecture
@@ -32,10 +32,9 @@ This image shows the 2 Degrees of freedom collaborative robot prototype that wor
 * The cobot is also programmed to detect which item to pick from several items. 
 * The cobot can avoid static obstacles using path planning rrt algorithm and can control its speed using trajectory planning.
 <br>
-![RRT algorithm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/f99ce6d2-bdb5-4fb2-b55a-a2c7c964f535)
-![configuration_space_of _the_2dof_arm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/9b7c1d26-a182-4b75-8ecf-3bbaf1f5f3c1)
+![configuration_space_of _the_2dof_arm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/4d8411ea-edeb-4f44-b766-16d11315e886)
 <br>
-![RRT algorithm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/b83ebcc0-b064-486a-b84f-26304709ec89)
+![RRT algorithm](https://github.com/EmanElRify/collaborative_robot_manipulator_software_system/assets/52162779/f99ce6d2-bdb5-4fb2-b55a-a2c7c964f535)
 <br>
 
 # conclusion & future work
