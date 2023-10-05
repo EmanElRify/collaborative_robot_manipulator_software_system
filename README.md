@@ -32,7 +32,7 @@ This image shows the 2 Degrees of freedom collaborative robot prototype that wor
 * The cobot is also programmed to detect which item to pick from several items. 
 * The cobot can avoid static obstacles using path planning rrt algorithm and can control its speed using trajectory planning.
 <br>
-![img](rrt_algorithm)
+![img](rrt_algorithm.png)
 <br>
 
 # conclusion & future work
