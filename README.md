@@ -32,8 +32,14 @@ This image shows the 2 Degrees of freedom collaborative robot prototype that wor
 * The cobot is also programmed to detect which item to pick from several items. 
 * The cobot can avoid static obstacles using path planning rrt algorithm and can control its speed using trajectory planning.
 <br>
-<img src = "rrt_algorithm.png" alt = "rrt">
-
+<img src = "rrt_algorithm.png" alt = "Configuration space">
+<br>
+<br>
+<img src = "configuration_space_of_the_2dof_arm.png" alt = "config_space">
+<br>
+  <video width="500px" height="500px" controls="controls">
+        <source src="What is configuration space.mp4" type="video/mp4" />
+       </video>
 <br>
 
 # conclusion & future work
